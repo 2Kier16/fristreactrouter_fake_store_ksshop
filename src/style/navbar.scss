@@ -1,0 +1,32 @@
+
+
+.navbarlinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:10px;
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
+  
+}
+
+a {
+    background:
+      linear-gradient(
+        to right,
+        rgb(246, 245, 245),
+        rgb(255, 255, 255)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgb(255, 255, 255),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+  }
+  a:hover {
+    background-size: 0 3px, 100% 3px;
+  }

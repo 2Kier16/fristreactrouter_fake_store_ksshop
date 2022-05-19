@@ -1,0 +1,19 @@
+body{
+  background-color: rgb(83, 83, 83);
+}
+.shitter {display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em goldenrod;
+  margin-top:50px;
+}
+.shitter img {
+  box-shadow: 1px 1px 2px rgb(3, 62, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255); 
+  display: grid;
+  width: 40%;
+  height: 20%;
+  align-items: center;    
+  margin-top:5px;
+
+}

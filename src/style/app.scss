@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(83, 83, 83);
+  
+
+}
+  .text-cont{
+    text-shadow: 1px 1px 2px rgb(239, 239, 239), 0 0 1em rgb(23, 23, 23), 0 0 0.2em rgb(255, 255, 255);
+    display: flex;
+    margin-top: 25px;
+    background-color: rgb(14, 46, 160);
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    animation-name: example;
+    animation-duration:  3s ;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+   
+  }
+
+  img {
+    box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(255, 255, 255);
+    margin-top:110px;
+    width: 40%;
+    height: 45%;
+    position: relative;
+    
+   
+  }
+
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: rgb(255, 255, 255);}
+    50%  {background-color: blue;}
+    100% {background-color: rgb(255, 0, 0);}
+  }
