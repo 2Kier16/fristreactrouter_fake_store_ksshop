@@ -2,23 +2,24 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../style/NavBar.scss";
 import { FcHome, FcShop, FcBiotech, FcAddressBook } from "react-icons/fc";
+import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
     <div className="navbar">
-      <div className="navbarlinks">
-        <Link to="/">
+      <div className="navbar-links">
+        <NavLink className="navbar-link" exact to="/">
           <FcHome />
-        </Link>
-        <Link to="/about">
+        </NavLink>
+        <NavLink className="navbar-link" to="/about">
           <FcBiotech />
-        </Link>
-        <Link to="/contact">
+        </NavLink>
+        <NavLink className="navbar-link" to="/contact">
           <FcAddressBook />
-        </Link>
-        <Link to="/store">
+        </NavLink>
+        <NavLink className="navbar-link" to="/store">
           <FcShop />
-        </Link>
+        </NavLink>
       </div>
     </div>
   );
