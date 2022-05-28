@@ -5,13 +5,15 @@ import manga from "../../static/assets/images/2swagsign.png";
 export default function About() {
   return (
     <div className="about">
-      <h1>About Us</h1>
+      <h1>About Us!</h1>
+      <br />
+      (Please hover mouse over picture for more infomation)
       <div className="about-content">
         <img src={manga} />
         <div className="example">
           <div className="example-text">
             Do Not order from us. We are not a real company. If you order
-            something you wont get it. We will gladly take your money if you are
+            something you wont get it. I will gladly take your money if you are
             willing to give it to us. You must admit that this is dope for my
             first react application. <br />
             I'm not sure if i will be graded on this project. I know that Iwill

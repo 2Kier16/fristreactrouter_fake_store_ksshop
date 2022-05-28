@@ -48,6 +48,12 @@ export default function Store() {
         </div>
         <div className="veteran-container">
           <img src={vet} />
+          <h3>
+            No Shiping Cost for Veterans and any Oder with a Donation made to VA
+            Non-Profits!
+          </h3>
+          <br />
+          (Must Show Proff of Donation at Payment Page!)
         </div>
       </div>
     </div>
