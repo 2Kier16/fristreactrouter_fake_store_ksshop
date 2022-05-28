@@ -1,9 +1,13 @@
-body{
+.body{
   background-color: rgb(83, 83, 83);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../static/assets/images/police2.jpg)
+ 
+}
 
   
-
-}
   .text-cont{
     text-shadow: 1px 1px 2px rgb(239, 239, 239), 0 0 1em rgb(23, 23, 23), 0 0 0.2em rgb(255, 255, 255);
     display: flex;
@@ -15,14 +19,14 @@ body{
     font-size: x-large;
     animation-name: example;
     animation-duration:  3s ;
-    animation-timing-function: ease-in-out;
+    animation-timing-function:ease-in-out;
     animation-iteration-count: infinite;
    
   }
 
   img {
     box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(255, 255, 255);
-    margin-top:110px;
+    margin-top:90px;
     width: 40%;
     height: 45%;
     position: relative;
@@ -34,5 +38,6 @@ body{
     0%   {background-color: red;}
     25%  {background-color: rgb(255, 255, 255);}
     50%  {background-color: blue;}
+    75% {background-color:  rgb(255, 255, 255);}
     100% {background-color: rgb(255, 0, 0);}
   }
