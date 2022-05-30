@@ -26,29 +26,29 @@ export default function Store() {
         <img src={store} />
         <div className="items-container">
           <div className="hats">
-            <h1>Illuminate</h1>
+            <h3>Illuminate</h3>
             <img src={wht} />
-            <h1>Darkness</h1>
+            <h3>Darkness</h3>
             <img src={blkcap} />
-            <h1>Sunny</h1>
+            <h3>Sunny</h3>
             <img src={yellow} />
-            <h1>Sky Water</h1>
+            <h3>Sky Water</h3>
             <img src={blue} />
-            <h1>Fire Truck</h1>
+            <h3>Fire Truck</h3>
             <img src={red} />
-            <h1>Black Eye</h1>
+            <h3>Black Eye</h3>
             <img src={blublk} />
-            <h1>Cloudy</h1>
+            <h3>Cloudy</h3>
             <img src={blkgry} />
-            <h1>Denim</h1>
+            <h3>Denim</h3>
             <img src={jean} />
-            <h1>Higliter</h1>
+            <h3>Higliter</h3>
             <img src={light} />
-            <h1>4 Years Young</h1>
+            <h3>4 Years Young</h3>
             <img src={clwn} />
-            <h1>Darkness Truker</h1>
+            <h3>Darkness Truker</h3>
             <img src={blktrk} />
-            <h1>Your Logo Truker</h1>
+            <h3>Your Logo Truker</h3>
             <img src={custom} />
           </div>
           <div className="t-shirts">
