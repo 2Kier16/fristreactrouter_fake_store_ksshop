@@ -9,6 +9,31 @@ export default class App extends Component {
         <div className="text-cont">
           <h1>"KOP-SHOP"</h1>
           <h2> (No Police) Swag!</h2>
+
+          {/* <police>
+              <h1>Hover Me!</h1>
+              <blue>
+                <circle />
+                <circle />
+                <circle />
+                <circle />
+                <circle />
+                <circle />
+                <circle />
+                <circle />
+              </blue>
+              <red>
+                <circle />
+                <circle />
+                <circle />
+                <circle />
+                <circle />
+                <circle />
+                <circle />
+                <circle />
+              </red>
+            </police>
+         */}
         </div>
         <img src={orderswag} />
       </div>

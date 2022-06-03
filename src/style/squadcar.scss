@@ -1,0 +1,142 @@
+// *, ::before, ::after { box-sizing: border-box; }
+
+// @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+// // Circle Style:
+// $space: 3px;
+// $items: 8;
+
+// // Responsive-Desktop:
+// $mrgn-tp-d: -31%;
+// $width-d: 13%;
+// $height-d: 6%;
+
+// // Responsive-Laptop:
+// $laptop: 1000px;
+// $mrgn-tp-l: -33%;
+
+// // Responsive-Tablet:
+// $landSpace-tablet: 650px;
+// $rotate-tablet: 550px;
+// $mrgn-tp-t: -34%;
+// $width-t: 15%;
+// $height-t: 5%;
+
+// // Responsive-mobile:
+// $mobile: 400px;
+// $height-m: 3%;
+// $mrgn-tp-m: -35%;
+
+// @mixin Responsive($width, $height, $mrgn-tp) {
+//   width: $width;
+//   height: $height;
+//   margin-top: $mrgn-tp;
+// }
+  
+// body {
+//   height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   background: black;
+//   background-image: url('https://media.giphy.com/media/xTiTnKM3hza0rromgU/giphy.gif');
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: 130%;
+  
+//   h1 {
+//     color: white;
+//     font-family: 'Nunito', sans-serif;
+//   }
+  
+//   police {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     @include Responsive($width-d, $height-d, $mrgn-tp-d);
+//     border-radius: 20% 20% 0 0;
+//     border: 3px solid rgba(46, 49, 49, 0.3);
+//     background: rgba(46, 49, 49, 0.5);
+//     &:hover,
+//     :focus {
+//       & h1 {
+//         visibility: hidden;
+//       }
+//       & circle {
+//       visibility: visible;
+//       cursor: pointer;
+//       }
+//     }
+    
+//     @media screen and (max-width: $laptop) {
+//       @include Responsive($width-d, $height-d, $mrgn-tp-l);
+//       }
+//     @media screen and (max-width: $landSpace-tablet) {
+//       @include Responsive($width-t, $height-t, $mrgn-tp-l);
+//       font-size: 11px;
+//       }
+//     @media screen and (max-width: $rotate-tablet) {
+//       @include Responsive($width-t, $height-t, $mrgn-tp-t);
+//       }
+//     @media screen and (max-width: $mobile) {
+//       @include Responsive($width-t, $height-m, $mrgn-tp-m);
+//       font-size: 8px;
+//       }
+    
+//     blue, red {
+//     position:absolute;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     perspective: 16px;
+//     }
+//   }
+  
+//   circle {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     border-radius: 50%;
+//     animation: animationCool 480ms linear infinite;  
+//     visibility: hidden;
+//   }
+  
+//   blue {
+//     margin: 0 8% 0 0;
+    
+//     circle {
+//       border: 2px ridge blue;
+//       @for $i from 0 through $items { 
+//         &:nth-child(#{$i}) {
+//           width: $i * 4px;
+//           height: $i * $space;
+//           box-shadow: $i * 5px $i *5px $i * 8px blue;
+//           animation-delay: $i * 15ms;
+//         }
+//       }
+//     }
+//   }
+  
+//   red {   
+//     margin: 0 0 0 6%;
+
+//     circle {
+//       border: 2px ridge red;     
+//       @for $i from 0 through $items { 
+//         &:nth-child(#{$i}) {
+//           width: $i * 4px;
+//           height: $i * $space;
+//           box-shadow: $i * 5px $i *5px $i *8px red;
+//           animation-delay: $i * 20ms;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @keyframes animationCool {
+//   from {
+//     transform: rotatey(1turn) rotatez(180deg);
+//   }
+// }

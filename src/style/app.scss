@@ -1,13 +1,14 @@
-.body{
+body{
   background-color: rgb(83, 83, 83);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../../static/assets/images/police2.jpg)
- 
+  // background-image: url('https://media1.giphy.com/media/26gR1glidMLKIKJ8c/giphy.gif?');
+  // background-image: url('https://media1.giphy.com/media/l1J9s6L9NWQpqqZTa/giphy.gif?');
+  background-image: url('https://media3.giphy.com/media/x0GeFXErpcRk4/giphy.gif?');
+
 }
 
-  
   .text-cont{
     text-shadow: 1px 1px 2px rgb(239, 239, 239), 0 0 1em rgb(23, 23, 23), 0 0 0.2em rgb(255, 255, 255);
     display: flex;

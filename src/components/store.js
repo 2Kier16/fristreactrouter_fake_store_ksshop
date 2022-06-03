@@ -1,5 +1,4 @@
 import React from "react";
-// import "../style/store.scss";
 import "./button/button.js";
 
 import store from "../../static/assets/images/swag1.png";
