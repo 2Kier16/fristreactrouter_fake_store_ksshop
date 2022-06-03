@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "../style/NavBar.scss";
+
+// import "../style/NavBar.scss";
 import { FcHome, FcShop, FcBiotech, FcAddressBook } from "react-icons/fc";
 import { NavLink } from "react-router-dom";
 

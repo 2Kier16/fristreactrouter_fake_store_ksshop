@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/contact.scss";
+// import "../style/contact.scss";
 import swag3 from "../../static/assets/images/swag3.jpg";
 
 export default function Contact() {

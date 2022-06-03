@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../style/app.scss";
+import "../style/main.scss";
 import orderswag from "../../static/assets/images/o-swag.png";
 
 export default class App extends Component {
