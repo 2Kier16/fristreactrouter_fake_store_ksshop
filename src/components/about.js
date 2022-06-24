@@ -5,9 +5,12 @@ import manga from "../../static/assets/images/2swagsign.png";
 export default function About() {
   return (
     <div className="about">
-      <h1>About Us!</h1>
-      <br />
-      (Please hover mouse over picture for more infomation)
+      <div className="about-text">
+        <h1>About Us!</h1>
+      </div>
+      <div className="about-text">
+        <h1>(Please hover mouse over picture for more infomation)</h1>
+      </div>
       <div className="about-content">
         <img src={manga} />
         <div className="example">
